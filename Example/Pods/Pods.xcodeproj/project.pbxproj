@@ -8,31 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		22AED608CA0D6210F53B14D4CC7E469C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2418846E37B8B6B18C5BF86A679E3E40 /* LeftImageTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1579B6CAC69421F8D5704B26DE5C34B /* LeftImageTextField.swift */; };
 		2739D4E4E03B28F5F268AABFF5226DA3 /* Pods-HealthProduct_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 229C8F7104419683D1363808DDFC1A3D /* Pods-HealthProduct_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39D2ED2E3D2EE757E45EF64A3D44133D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		520C203C40D2D8897C21044620E87535 /* Pods-HealthProduct_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A942D045656612F0987B35294ABE7A2 /* Pods-HealthProduct_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A04106056BEF0A0CABF7C485A4990EFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7E873C5655EADFE71FF32AD8624B5063 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22A3268F8109D83AD52B4B7E2B4D27F /* ReplaceMe.swift */; };
+		81E4A1B547B1FBBF2686CD12AB038362 /* HealthProduct-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CD778E7F5B0D97A78525D2FC18D967 /* HealthProduct-dummy.m */; };
 		A90611B2F8B6F622A2FE2A8B97F9F1A2 /* Pods-HealthProduct_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B11918C086EF8BB39AF5972ABB1C5A8E /* Pods-HealthProduct_Tests-dummy.m */; };
 		B10748093333B0C07A755C50DAD9F35E /* Pods-HealthProduct_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B60F3ABB6AECD30DFD32D48B4E643C /* Pods-HealthProduct_Example-dummy.m */; };
-		DFE05CD9492FE32BE5B0C92862952B55 /* HealthProduct-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B6B5519CF880D419D9A25FA99F9E8A /* HealthProduct-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3044F3EADC4C7960ED02225D376D952 /* HealthProduct-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C3DE8871C6563BE5B8D127E73E1066 /* HealthProduct-dummy.m */; };
-		E53489660834FB81FE647844E7431B44 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62914DE7028FD491CEAC8EB15FA54B2E /* ReplaceMe.swift */; };
+		D87D10567987B1513FBAEF1B75F87BA4 /* HealthProduct-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E874A165E9D7F6FCAAF0A68AEA30EA /* HealthProduct-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAAB67FD783BCDE271866F463CD27246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		58A7C825B8F76DED3CE09BC46CD30A96 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6EC89F1C6888C27383D54C7F331C0324;
-			remoteInfo = "Pods-HealthProduct_Example";
-		};
-		EFBFFE66D5D224E7FC6BD978F4CFA40A /* PBXContainerItemProxy */ = {
+		3661323DA96D84D013F8FCD1C1BAED70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1814E425D431C7867F9782A9B35BC93F;
 			remoteInfo = HealthProduct;
+		};
+		C5AF6889837C3F28CF29698A967F9B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EC89F1C6888C27383D54C7F331C0324;
+			remoteInfo = "Pods-HealthProduct_Example";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -41,34 +42,35 @@
 		11E383F83EAF6E17DE574F3DFF1434BF /* Pods_HealthProduct_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HealthProduct_Tests.framework; path = "Pods-HealthProduct_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		163C016BD1ABA8FD3CDEAEFBBCB898A9 /* Pods-HealthProduct_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthProduct_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		229C8F7104419683D1363808DDFC1A3D /* Pods-HealthProduct_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthProduct_Tests-umbrella.h"; sourceTree = "<group>"; };
+		24869B5505CF321B861FDC5D7B99F2D8 /* HealthProduct-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HealthProduct-prefix.pch"; sourceTree = "<group>"; };
 		2EDC92C87CF740228356AFFB4711EDDB /* Pods-HealthProduct_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthProduct_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2EE57E4B7B29DBE23A08A4BB848D29A6 /* Pods-HealthProduct_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthProduct_Tests-Info.plist"; sourceTree = "<group>"; };
 		3A942D045656612F0987B35294ABE7A2 /* Pods-HealthProduct_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthProduct_Example-umbrella.h"; sourceTree = "<group>"; };
 		3B00E2CB12519C179E6CF7CF91107013 /* Pods-HealthProduct_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthProduct_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3F6D2E4CAA89D2406F37678BEECB9542 /* HealthProduct-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HealthProduct-Info.plist"; sourceTree = "<group>"; };
 		466C964A74B2D8B7FAE6C668885A3526 /* Pods-HealthProduct_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthProduct_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5F3E967ED3595D04C721509730D0296A /* HealthProduct.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HealthProduct.modulemap; sourceTree = "<group>"; };
-		62914DE7028FD491CEAC8EB15FA54B2E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HealthProduct/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		688086EA215B403851C1D1535A0B1E0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6D3E414A0B62D1FD0377088CD651393E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		715A8623A49AC3EC52DDC0A6F9074CB3 /* Pods-HealthProduct_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HealthProduct_Example.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		74D8BBA216B2AA6C463D54BC1CF2CE5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		81001C3BEAF3DF6176E9945E382D4C90 /* HealthProduct.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HealthProduct.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		83436F5A2577A69099363CE6E2E0DE30 /* HealthProduct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HealthProduct.debug.xcconfig; sourceTree = "<group>"; };
 		83E98EFFB6466D2E3B36D7EA83157118 /* Pods-HealthProduct_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthProduct_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		84867326DF192A37776BA3E1E1DD80B6 /* Pods-HealthProduct_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthProduct_Example.release.xcconfig"; sourceTree = "<group>"; };
+		85CD778E7F5B0D97A78525D2FC18D967 /* HealthProduct-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HealthProduct-dummy.m"; sourceTree = "<group>"; };
 		85D6D876D554C9BE4CA3C6373E6BAAC8 /* Pods-HealthProduct_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HealthProduct_Tests.modulemap"; sourceTree = "<group>"; };
-		86C3DE8871C6563BE5B8D127E73E1066 /* HealthProduct-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HealthProduct-dummy.m"; sourceTree = "<group>"; };
 		8D9604142A870BC1233F1E5A31AAEC0C /* HealthProduct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HealthProduct.framework; path = HealthProduct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		955F63D42A9C5257AF60BF3551AF78EB /* HealthProduct.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HealthProduct.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		991E650694E495F9FD9199E847D6C43D /* HealthProduct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HealthProduct.release.xcconfig; sourceTree = "<group>"; };
 		9D3CBDCCAF5A8DBC656ECCABF9952F59 /* Pods-HealthProduct_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthProduct_Example-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EE42A5293BC53E55732C54F29CF9B80 /* Pods_HealthProduct_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HealthProduct_Example.framework; path = "Pods-HealthProduct_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4591186ABB23C36736FBBF6CBCEDF2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		A6260A2FAFF3DCA0B4C169223D7C7C31 /* HealthProduct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HealthProduct.release.xcconfig; sourceTree = "<group>"; };
 		B11918C086EF8BB39AF5972ABB1C5A8E /* Pods-HealthProduct_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthProduct_Tests-dummy.m"; sourceTree = "<group>"; };
+		B1579B6CAC69421F8D5704B26DE5C34B /* LeftImageTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LeftImageTextField.swift; path = HealthProduct/Classes/LeftImageTextField.swift; sourceTree = "<group>"; };
 		B4B60F3ABB6AECD30DFD32D48B4E643C /* Pods-HealthProduct_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthProduct_Example-dummy.m"; sourceTree = "<group>"; };
+		BC7C5DF3AF4242C35F9EAC341832BF28 /* HealthProduct-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HealthProduct-Info.plist"; sourceTree = "<group>"; };
 		D29E016850A28E70A8452712888D4A1F /* Pods-HealthProduct_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthProduct_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D5E75D67994CD2A3A427CC654DAD4D95 /* HealthProduct-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HealthProduct-prefix.pch"; sourceTree = "<group>"; };
-		DD438E6BAEB2F831ED6A2051839A6BEE /* HealthProduct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HealthProduct.debug.xcconfig; sourceTree = "<group>"; };
-		F2B6B5519CF880D419D9A25FA99F9E8A /* HealthProduct-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HealthProduct-umbrella.h"; sourceTree = "<group>"; };
+		F1E874A165E9D7F6FCAAF0A68AEA30EA /* HealthProduct-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HealthProduct-umbrella.h"; sourceTree = "<group>"; };
+		F22A3268F8109D83AD52B4B7E2B4D27F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HealthProduct/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F5F539B187075EC3CE078848C70B9AAF /* HealthProduct.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HealthProduct.modulemap; sourceTree = "<group>"; };
 		FEDAD45466304D70329BF3D49ABBAF0A /* Pods-HealthProduct_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthProduct_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,11 +83,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B25938822DEB5045ABC99D77155DE63 /* Frameworks */ = {
+		A08FB85E6FB2111DB684DEF91A7F215A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A04106056BEF0A0CABF7C485A4990EFA /* Foundation.framework in Frameworks */,
+				39D2ED2E3D2EE757E45EF64A3D44133D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C0C0D401CC133C3F159396A336AF228 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2856DAC1FE941E157706F41FC4FCD4E1 /* HealthProduct */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		24C40D1B52513F05E32B4008B6936AE0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +118,18 @@
 				11E383F83EAF6E17DE574F3DFF1434BF /* Pods_HealthProduct_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2856DAC1FE941E157706F41FC4FCD4E1 /* HealthProduct */ = {
+			isa = PBXGroup;
+			children = (
+				B1579B6CAC69421F8D5704B26DE5C34B /* LeftImageTextField.swift */,
+				F22A3268F8109D83AD52B4B7E2B4D27F /* ReplaceMe.swift */,
+				8BF88D5AC8B962252A30B37CC66820BB /* Pod */,
+				C25609D6568568B55102C1458962BA58 /* Support Files */,
+			);
+			name = HealthProduct;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		46BBC12E0F056533BDE6FFB812828976 /* Pods-HealthProduct_Tests */ = {
@@ -126,37 +148,12 @@
 			path = "Target Support Files/Pods-HealthProduct_Tests";
 			sourceTree = "<group>";
 		};
-		55CF5440F8B4E139D65110CEEA899483 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5F3E967ED3595D04C721509730D0296A /* HealthProduct.modulemap */,
-				86C3DE8871C6563BE5B8D127E73E1066 /* HealthProduct-dummy.m */,
-				3F6D2E4CAA89D2406F37678BEECB9542 /* HealthProduct-Info.plist */,
-				D5E75D67994CD2A3A427CC654DAD4D95 /* HealthProduct-prefix.pch */,
-				F2B6B5519CF880D419D9A25FA99F9E8A /* HealthProduct-umbrella.h */,
-				DD438E6BAEB2F831ED6A2051839A6BEE /* HealthProduct.debug.xcconfig */,
-				A6260A2FAFF3DCA0B4C169223D7C7C31 /* HealthProduct.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HealthProduct";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		69AED4C0E63C3B7F20A3ADCAA27B9425 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				81001C3BEAF3DF6176E9945E382D4C90 /* HealthProduct.podspec */,
-				A4591186ABB23C36736FBBF6CBCEDF2D /* LICENSE */,
-				74D8BBA216B2AA6C463D54BC1CF2CE5F /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		6C9B95EF0D78F6393C36D2FC60F50610 /* Pods-HealthProduct_Example */ = {
@@ -176,15 +173,14 @@
 			path = "Target Support Files/Pods-HealthProduct_Example";
 			sourceTree = "<group>";
 		};
-		95029FCB0260AFC6B6C9E17F077E5A31 /* HealthProduct */ = {
+		8BF88D5AC8B962252A30B37CC66820BB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				62914DE7028FD491CEAC8EB15FA54B2E /* ReplaceMe.swift */,
-				69AED4C0E63C3B7F20A3ADCAA27B9425 /* Pod */,
-				55CF5440F8B4E139D65110CEEA899483 /* Support Files */,
+				955F63D42A9C5257AF60BF3551AF78EB /* HealthProduct.podspec */,
+				6D3E414A0B62D1FD0377088CD651393E /* LICENSE */,
+				688086EA215B403851C1D1535A0B1E0B /* README.md */,
 			);
-			name = HealthProduct;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BE4E4F7972FD479BCFBF5EC602565F96 /* Targets Support Files */ = {
@@ -196,19 +192,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C34D5435CA411414ED34DA4CC294CBC7 /* Development Pods */ = {
+		C25609D6568568B55102C1458962BA58 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				95029FCB0260AFC6B6C9E17F077E5A31 /* HealthProduct */,
+				F5F539B187075EC3CE078848C70B9AAF /* HealthProduct.modulemap */,
+				85CD778E7F5B0D97A78525D2FC18D967 /* HealthProduct-dummy.m */,
+				BC7C5DF3AF4242C35F9EAC341832BF28 /* HealthProduct-Info.plist */,
+				24869B5505CF321B861FDC5D7B99F2D8 /* HealthProduct-prefix.pch */,
+				F1E874A165E9D7F6FCAAF0A68AEA30EA /* HealthProduct-umbrella.h */,
+				83436F5A2577A69099363CE6E2E0DE30 /* HealthProduct.debug.xcconfig */,
+				991E650694E495F9FD9199E847D6C43D /* HealthProduct.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HealthProduct";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C34D5435CA411414ED34DA4CC294CBC7 /* Development Pods */,
+				0C0C0D401CC133C3F159396A336AF228 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				24C40D1B52513F05E32B4008B6936AE0 /* Products */,
 				BE4E4F7972FD479BCFBF5EC602565F96 /* Targets Support Files */,
@@ -234,11 +237,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63CC2D247CCC419200791D9F9C55D1E2 /* Headers */ = {
+		36443ACBB06A8F738018E95DBCD4210D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFE05CD9492FE32BE5B0C92862952B55 /* HealthProduct-umbrella.h in Headers */,
+				D87D10567987B1513FBAEF1B75F87BA4 /* HealthProduct-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +258,12 @@
 /* Begin PBXNativeTarget section */
 		1814E425D431C7867F9782A9B35BC93F /* HealthProduct */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2965F126D5F89CBE75C01AE10777664 /* Build configuration list for PBXNativeTarget "HealthProduct" */;
+			buildConfigurationList = 9E185FED9D490DA2BCDFD91FF60CEB8F /* Build configuration list for PBXNativeTarget "HealthProduct" */;
 			buildPhases = (
-				63CC2D247CCC419200791D9F9C55D1E2 /* Headers */,
-				783662D948A4E0B90E20D5C3CB59BEB5 /* Sources */,
-				8B25938822DEB5045ABC99D77155DE63 /* Frameworks */,
-				CC86A2EE7BA6D1D08D1496B8F4D2C341 /* Resources */,
+				36443ACBB06A8F738018E95DBCD4210D /* Headers */,
+				D5DBABC8A6BAA1EEF0A7DD09EED00B2A /* Sources */,
+				A08FB85E6FB2111DB684DEF91A7F215A /* Frameworks */,
+				AA4724DC661D869D6283FDD66896F8B3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +286,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9E60E2BC7F5C918484F36A3DEF7DEBFA /* PBXTargetDependency */,
+				8A7DE9D6EACE7401F355B1E69601BD5D /* PBXTargetDependency */,
 			);
 			name = "Pods-HealthProduct_Example";
 			productName = "Pods-HealthProduct_Example";
@@ -302,7 +305,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				67E63CE23A90C9C68E874B125F0086FB /* PBXTargetDependency */,
+				FF082A987D8A3D2260A494CC3AC9E188 /* PBXTargetDependency */,
 			);
 			name = "Pods-HealthProduct_Tests";
 			productName = "Pods-HealthProduct_Tests";
@@ -346,7 +349,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC86A2EE7BA6D1D08D1496B8F4D2C341 /* Resources */ = {
+		AA4724DC661D869D6283FDD66896F8B3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,15 +366,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		783662D948A4E0B90E20D5C3CB59BEB5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3044F3EADC4C7960ED02225D376D952 /* HealthProduct-dummy.m in Sources */,
-				E53489660834FB81FE647844E7431B44 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		876453061ED4C4F8310ECD9572202808 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,85 +382,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D5DBABC8A6BAA1EEF0A7DD09EED00B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4A1B547B1FBBF2686CD12AB038362 /* HealthProduct-dummy.m in Sources */,
+				2418846E37B8B6B18C5BF86A679E3E40 /* LeftImageTextField.swift in Sources */,
+				7E873C5655EADFE71FF32AD8624B5063 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		67E63CE23A90C9C68E874B125F0086FB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-HealthProduct_Example";
-			target = 6EC89F1C6888C27383D54C7F331C0324 /* Pods-HealthProduct_Example */;
-			targetProxy = 58A7C825B8F76DED3CE09BC46CD30A96 /* PBXContainerItemProxy */;
-		};
-		9E60E2BC7F5C918484F36A3DEF7DEBFA /* PBXTargetDependency */ = {
+		8A7DE9D6EACE7401F355B1E69601BD5D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HealthProduct;
 			target = 1814E425D431C7867F9782A9B35BC93F /* HealthProduct */;
-			targetProxy = EFBFFE66D5D224E7FC6BD978F4CFA40A /* PBXContainerItemProxy */;
+			targetProxy = 3661323DA96D84D013F8FCD1C1BAED70 /* PBXContainerItemProxy */;
+		};
+		FF082A987D8A3D2260A494CC3AC9E188 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HealthProduct_Example";
+			target = 6EC89F1C6888C27383D54C7F331C0324 /* Pods-HealthProduct_Example */;
+			targetProxy = C5AF6889837C3F28CF29698A967F9B59 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1585A4FD06C15D93B59683BC9BBA332F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6260A2FAFF3DCA0B4C169223D7C7C31 /* HealthProduct.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HealthProduct/HealthProduct-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HealthProduct/HealthProduct-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HealthProduct/HealthProduct.modulemap";
-				PRODUCT_MODULE_NAME = HealthProduct;
-				PRODUCT_NAME = HealthProduct;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1ECF31F63A76607ADDF1E083A0740291 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD438E6BAEB2F831ED6A2051839A6BEE /* HealthProduct.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HealthProduct/HealthProduct-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HealthProduct/HealthProduct-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HealthProduct/HealthProduct.modulemap";
-				PRODUCT_MODULE_NAME = HealthProduct;
-				PRODUCT_NAME = HealthProduct;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -630,6 +573,37 @@
 			};
 			name = Debug;
 		};
+		AA1BECD231B62822F003041391D7621A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 991E650694E495F9FD9199E847D6C43D /* HealthProduct.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HealthProduct/HealthProduct-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HealthProduct/HealthProduct-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HealthProduct/HealthProduct.modulemap";
+				PRODUCT_MODULE_NAME = HealthProduct;
+				PRODUCT_NAME = HealthProduct;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -691,6 +665,36 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		E340BD0142248C792ABDA240E483C67B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83436F5A2577A69099363CE6E2E0DE30 /* HealthProduct.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HealthProduct/HealthProduct-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HealthProduct/HealthProduct-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HealthProduct/HealthProduct.modulemap";
+				PRODUCT_MODULE_NAME = HealthProduct;
+				PRODUCT_NAME = HealthProduct;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		F30A1031D17F74C0DD4075C08E3E4064 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -755,11 +759,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2965F126D5F89CBE75C01AE10777664 /* Build configuration list for PBXNativeTarget "HealthProduct" */ = {
+		9E185FED9D490DA2BCDFD91FF60CEB8F /* Build configuration list for PBXNativeTarget "HealthProduct" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1ECF31F63A76607ADDF1E083A0740291 /* Debug */,
-				1585A4FD06C15D93B59683BC9BBA332F /* Release */,
+				E340BD0142248C792ABDA240E483C67B /* Debug */,
+				AA1BECD231B62822F003041391D7621A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

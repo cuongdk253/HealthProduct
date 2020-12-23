@@ -15,6 +15,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		A231A10225932C1100460974 /* LeftImageTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A231A10125932C1100460974 /* LeftImageTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		6AD9A148C57D591876B1D07E /* Pods-HealthProduct_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthProduct_Example.debug.xcconfig"; path = "Target Support Files/Pods-HealthProduct_Example/Pods-HealthProduct_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6E3559BB451F3DAABDED2163 /* Pods-HealthProduct_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthProduct_Example.release.xcconfig"; path = "Target Support Files/Pods-HealthProduct_Example/Pods-HealthProduct_Example.release.xcconfig"; sourceTree = "<group>"; };
 		78EF2C01F7CDC242618EAC02 /* HealthProduct.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HealthProduct.podspec; path = ../HealthProduct.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A231A10125932C1100460974 /* LeftImageTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeftImageTextField.swift; path = ../HealthProduct/Classes/LeftImageTextField.swift; sourceTree = "<group>"; };
 		B7DA4AF6F76A396B34B2EC42 /* Pods-HealthProduct_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthProduct_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HealthProduct_Tests/Pods-HealthProduct_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0B4D31A411AB5F78006FBEF /* Pods_HealthProduct_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthProduct_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E820280358D6B5AB396797 /* Pods_HealthProduct_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthProduct_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +85,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				A231A10125932C1100460974 /* LeftImageTextField.swift */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for HealthProduct */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -212,7 +215,9 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 8N64VN798B;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -332,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				A231A10225932C1100460974 /* LeftImageTextField.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,11 +484,15 @@
 			baseConfigurationReference = 6AD9A148C57D591876B1D07E /* Pods-HealthProduct_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8N64VN798B;
 				INFOPLIST_FILE = HealthProduct/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = MyVBIDistribution;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -493,11 +503,15 @@
 			baseConfigurationReference = 6E3559BB451F3DAABDED2163 /* Pods-HealthProduct_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8N64VN798B;
 				INFOPLIST_FILE = HealthProduct/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = MyVBIDistribution;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};

@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HealthProduct: be01dfa72d4dda10ce274a56229b951416bf6ad8
+  HealthProduct: 6c384de935cfe2464dd4a67692b12a655c3ade02
 
 PODFILE CHECKSUM: 93566ece17c3ec08f25f73eb22b638ec6f942c92
 

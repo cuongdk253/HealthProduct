@@ -1,7 +1,7 @@
 {
   "name": "HealthProduct",
   "version": "0.1.0",
-  "summary": "A short description of HealthProduct.",
+  "summary": "HealthProduct Page",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/cuongdk253/HealthProduct",
   "license": {
@@ -18,5 +18,7 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "HealthProduct/Classes/**/*"
+  "source_files": "HealthProduct/Classes/**/*",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }
