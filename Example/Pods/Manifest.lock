@@ -1,0 +1,16 @@
+PODS:
+  - HealthProduct (0.1.0)
+
+DEPENDENCIES:
+  - HealthProduct (from `../`)
+
+EXTERNAL SOURCES:
+  HealthProduct:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HealthProduct: be01dfa72d4dda10ce274a56229b951416bf6ad8
+
+PODFILE CHECKSUM: 93566ece17c3ec08f25f73eb22b638ec6f942c92
+
+COCOAPODS: 1.10.0
