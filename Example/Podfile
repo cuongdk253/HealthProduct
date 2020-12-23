@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HealthProduct_Example' do
+  pod 'HealthProduct', :path => '../'
+
+  target 'HealthProduct_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
