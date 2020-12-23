@@ -10,6 +10,6 @@ import Foundation
 
 public class ShowPage {
     public class func doIt(){
-        print("Ngu ngu ngu! ! !")
+        print("Ngu ngu ngu!!!")
     }
 }
