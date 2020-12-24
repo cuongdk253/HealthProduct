@@ -1,5 +1,5 @@
 PODS:
-  - HealthProduct (1.1.5)
+  - HealthProduct (1.1.8)
 
 DEPENDENCIES:
   - HealthProduct (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HealthProduct: 4554db554e3aacf8dac832daa54b9eaca904227b
+  HealthProduct: b2995c50caa2b0c319af4c28e4c5bc4a494fc477
 
 PODFILE CHECKSUM: 93566ece17c3ec08f25f73eb22b638ec6f942c92
 
