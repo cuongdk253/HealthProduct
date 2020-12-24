@@ -1,14 +1,15 @@
 //
-//  ViewController.swift
-//  HealthProduct
+//  PageCtrll.swift
+//  HealthProduct_Example
 //
-//  Created by cuongdk253 on 12/23/2020.
-//  Copyright (c) 2020 cuongdk253. All rights reserved.
+//  Created by Cuong DK on 23/12/2020.
+//  Copyright © 2020 CocoaPods. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-class ViewController: UIViewController {
+public class PageCtrlll: UIViewController {
 
     lazy var customerTextField: UITextField = {
         let textField = UITextField(frame: CGRect(x: 0, y: 0, width: 200, height: 60))
@@ -31,38 +32,27 @@ class ViewController: UIViewController {
     
     
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-//        self.view.addSubview(self.customerTextField)
-//        view.backgroundColor = .orange
-//
         button.setTitle("Test", for: .normal)
         button.setTitleColor(.systemBlue, for: .normal)
         button.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
 
         self.view.addSubview(button)
         
-//        ShowPage.doIt()
         
     }
     
     @objc
-        func buttonAction() {
-            let ac = ViewPageCtrl()
-//            self.present(ac, animated: true, completion: nil)
-            
+        public func buttonAction() {
+            let ac = ViewPageController()
             self.navigationController?.pushViewController(ac, animated: true)
             
-//            self.view.addSubview(customerTextField)
         }
 
-    override func didReceiveMemoryWarning() {
+    override public func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
 
 }
-

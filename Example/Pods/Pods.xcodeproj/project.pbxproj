@@ -8,27 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		22AED608CA0D6210F53B14D4CC7E469C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2418846E37B8B6B18C5BF86A679E3E40 /* LeftImageTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1579B6CAC69421F8D5704B26DE5C34B /* LeftImageTextField.swift */; };
 		2739D4E4E03B28F5F268AABFF5226DA3 /* Pods-HealthProduct_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 229C8F7104419683D1363808DDFC1A3D /* Pods-HealthProduct_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39D2ED2E3D2EE757E45EF64A3D44133D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		31E1E4D21D059EE67572362A086605B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		45419E881B9157CE73CBC1546590419B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B68640ED38FDE320EFC7BE1A5C8E1 /* ReplaceMe.swift */; };
+		46A66BBEFA0F7FAE08F48C8D645F4958 /* ViewPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B0DB0CBD43F7627EC1CC6FD79AE70A /* ViewPageController.swift */; };
 		520C203C40D2D8897C21044620E87535 /* Pods-HealthProduct_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A942D045656612F0987B35294ABE7A2 /* Pods-HealthProduct_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E873C5655EADFE71FF32AD8624B5063 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22A3268F8109D83AD52B4B7E2B4D27F /* ReplaceMe.swift */; };
-		81E4A1B547B1FBBF2686CD12AB038362 /* HealthProduct-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CD778E7F5B0D97A78525D2FC18D967 /* HealthProduct-dummy.m */; };
+		9805E05413009EE2A8E58C5F97FA94FB /* HealthProduct-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE1E5C40A6F8098BC683ED1EC3CA360 /* HealthProduct-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3FA805DFB51AF3E4CF1BA4B66EBBCCF /* PageCtrll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2EB6E2C799DCAC8277174D39F8A6FE /* PageCtrll.swift */; };
 		A90611B2F8B6F622A2FE2A8B97F9F1A2 /* Pods-HealthProduct_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B11918C086EF8BB39AF5972ABB1C5A8E /* Pods-HealthProduct_Tests-dummy.m */; };
 		B10748093333B0C07A755C50DAD9F35E /* Pods-HealthProduct_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B60F3ABB6AECD30DFD32D48B4E643C /* Pods-HealthProduct_Example-dummy.m */; };
-		D87D10567987B1513FBAEF1B75F87BA4 /* HealthProduct-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E874A165E9D7F6FCAAF0A68AEA30EA /* HealthProduct-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C92DBA680A9239C6930F0E6F3CFD8155 /* HealthProduct-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AE5C488D616D1668F6565F6C1A5A8B /* HealthProduct-dummy.m */; };
 		FAAB67FD783BCDE271866F463CD27246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3661323DA96D84D013F8FCD1C1BAED70 /* PBXContainerItemProxy */ = {
+		8A912A0C840537EE7AD0DDACBB23B608 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1814E425D431C7867F9782A9B35BC93F;
 			remoteInfo = HealthProduct;
 		};
-		C5AF6889837C3F28CF29698A967F9B59 /* PBXContainerItemProxy */ = {
+		F74606537A8606A7A086AA1DE5E57261 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -41,53 +42,54 @@
 		0336EC1080EEB59AB0B70BDD1D08755E /* Pods-HealthProduct_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthProduct_Example-frameworks.sh"; sourceTree = "<group>"; };
 		11E383F83EAF6E17DE574F3DFF1434BF /* Pods_HealthProduct_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HealthProduct_Tests.framework; path = "Pods-HealthProduct_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		163C016BD1ABA8FD3CDEAEFBBCB898A9 /* Pods-HealthProduct_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthProduct_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1AE1E5C40A6F8098BC683ED1EC3CA360 /* HealthProduct-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HealthProduct-umbrella.h"; sourceTree = "<group>"; };
 		229C8F7104419683D1363808DDFC1A3D /* Pods-HealthProduct_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthProduct_Tests-umbrella.h"; sourceTree = "<group>"; };
-		24869B5505CF321B861FDC5D7B99F2D8 /* HealthProduct-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HealthProduct-prefix.pch"; sourceTree = "<group>"; };
 		2EDC92C87CF740228356AFFB4711EDDB /* Pods-HealthProduct_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthProduct_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2EE57E4B7B29DBE23A08A4BB848D29A6 /* Pods-HealthProduct_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthProduct_Tests-Info.plist"; sourceTree = "<group>"; };
+		3129BD2D359445F25A23D2FF5BF664D8 /* HealthProduct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HealthProduct.debug.xcconfig; sourceTree = "<group>"; };
+		36DCAAC4735FF691B87A2B9EE42C9569 /* HealthProduct-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HealthProduct-Info.plist"; sourceTree = "<group>"; };
 		3A942D045656612F0987B35294ABE7A2 /* Pods-HealthProduct_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthProduct_Example-umbrella.h"; sourceTree = "<group>"; };
 		3B00E2CB12519C179E6CF7CF91107013 /* Pods-HealthProduct_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthProduct_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F012EA6460541F046C3C0B99E221135 /* HealthProduct.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HealthProduct.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		466C964A74B2D8B7FAE6C668885A3526 /* Pods-HealthProduct_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthProduct_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		688086EA215B403851C1D1535A0B1E0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		6D3E414A0B62D1FD0377088CD651393E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4E61C68A071FC65A2E3C806212B95167 /* HealthProduct-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HealthProduct-prefix.pch"; sourceTree = "<group>"; };
+		6E32986C2A87077D5C484BAB9ACE6171 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		715A8623A49AC3EC52DDC0A6F9074CB3 /* Pods-HealthProduct_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HealthProduct_Example.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		83436F5A2577A69099363CE6E2E0DE30 /* HealthProduct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HealthProduct.debug.xcconfig; sourceTree = "<group>"; };
 		83E98EFFB6466D2E3B36D7EA83157118 /* Pods-HealthProduct_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthProduct_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		84867326DF192A37776BA3E1E1DD80B6 /* Pods-HealthProduct_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthProduct_Example.release.xcconfig"; sourceTree = "<group>"; };
-		85CD778E7F5B0D97A78525D2FC18D967 /* HealthProduct-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HealthProduct-dummy.m"; sourceTree = "<group>"; };
 		85D6D876D554C9BE4CA3C6373E6BAAC8 /* Pods-HealthProduct_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HealthProduct_Tests.modulemap"; sourceTree = "<group>"; };
 		8D9604142A870BC1233F1E5A31AAEC0C /* HealthProduct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HealthProduct.framework; path = HealthProduct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		955F63D42A9C5257AF60BF3551AF78EB /* HealthProduct.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HealthProduct.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		991E650694E495F9FD9199E847D6C43D /* HealthProduct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HealthProduct.release.xcconfig; sourceTree = "<group>"; };
+		9B2EB6E2C799DCAC8277174D39F8A6FE /* PageCtrll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageCtrll.swift; path = HealthProduct/Classes/PageCtrll.swift; sourceTree = "<group>"; };
 		9D3CBDCCAF5A8DBC656ECCABF9952F59 /* Pods-HealthProduct_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthProduct_Example-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EE42A5293BC53E55732C54F29CF9B80 /* Pods_HealthProduct_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HealthProduct_Example.framework; path = "Pods-HealthProduct_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B094C86C690886E2348711240D740857 /* HealthProduct.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HealthProduct.modulemap; sourceTree = "<group>"; };
 		B11918C086EF8BB39AF5972ABB1C5A8E /* Pods-HealthProduct_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthProduct_Tests-dummy.m"; sourceTree = "<group>"; };
-		B1579B6CAC69421F8D5704B26DE5C34B /* LeftImageTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LeftImageTextField.swift; path = HealthProduct/Classes/LeftImageTextField.swift; sourceTree = "<group>"; };
 		B4B60F3ABB6AECD30DFD32D48B4E643C /* Pods-HealthProduct_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthProduct_Example-dummy.m"; sourceTree = "<group>"; };
-		BC7C5DF3AF4242C35F9EAC341832BF28 /* HealthProduct-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HealthProduct-Info.plist"; sourceTree = "<group>"; };
+		B7AE5C488D616D1668F6565F6C1A5A8B /* HealthProduct-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HealthProduct-dummy.m"; sourceTree = "<group>"; };
+		C31354ABF4385CFF50F9D4B272DBE53B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D29E016850A28E70A8452712888D4A1F /* Pods-HealthProduct_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthProduct_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F1E874A165E9D7F6FCAAF0A68AEA30EA /* HealthProduct-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HealthProduct-umbrella.h"; sourceTree = "<group>"; };
-		F22A3268F8109D83AD52B4B7E2B4D27F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HealthProduct/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		F5F539B187075EC3CE078848C70B9AAF /* HealthProduct.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HealthProduct.modulemap; sourceTree = "<group>"; };
+		F56366F78F55F31271B03E23E67AA452 /* HealthProduct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HealthProduct.release.xcconfig; sourceTree = "<group>"; };
+		F84B68640ED38FDE320EFC7BE1A5C8E1 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HealthProduct/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F9B0DB0CBD43F7627EC1CC6FD79AE70A /* ViewPageController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewPageController.swift; path = HealthProduct/Classes/ViewPageController.swift; sourceTree = "<group>"; };
 		FEDAD45466304D70329BF3D49ABBAF0A /* Pods-HealthProduct_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthProduct_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0DEDB6E299AE3AD19AFCC6EF9E2E9753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E1E4D21D059EE67572362A086605B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A77C98CA6782F4ACBF7B6CEAA10E2AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				22AED608CA0D6210F53B14D4CC7E469C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A08FB85E6FB2111DB684DEF91A7F215A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				39D2ED2E3D2EE757E45EF64A3D44133D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,12 +104,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C0C0D401CC133C3F159396A336AF228 /* Development Pods */ = {
+		220E950B1CAE272201CEB5761558D68C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2856DAC1FE941E157706F41FC4FCD4E1 /* HealthProduct */,
+				3F012EA6460541F046C3C0B99E221135 /* HealthProduct.podspec */,
+				6E32986C2A87077D5C484BAB9ACE6171 /* LICENSE */,
+				C31354ABF4385CFF50F9D4B272DBE53B /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		24C40D1B52513F05E32B4008B6936AE0 /* Products */ = {
@@ -120,16 +124,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2856DAC1FE941E157706F41FC4FCD4E1 /* HealthProduct */ = {
+		24C727B28525CB75DED72BD49C4C3950 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B1579B6CAC69421F8D5704B26DE5C34B /* LeftImageTextField.swift */,
-				F22A3268F8109D83AD52B4B7E2B4D27F /* ReplaceMe.swift */,
-				8BF88D5AC8B962252A30B37CC66820BB /* Pod */,
-				C25609D6568568B55102C1458962BA58 /* Support Files */,
+				B8F598E486274701FF16B970E7AFC414 /* HealthProduct */,
 			);
-			name = HealthProduct;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		46BBC12E0F056533BDE6FFB812828976 /* Pods-HealthProduct_Tests */ = {
@@ -173,14 +173,17 @@
 			path = "Target Support Files/Pods-HealthProduct_Example";
 			sourceTree = "<group>";
 		};
-		8BF88D5AC8B962252A30B37CC66820BB /* Pod */ = {
+		B8F598E486274701FF16B970E7AFC414 /* HealthProduct */ = {
 			isa = PBXGroup;
 			children = (
-				955F63D42A9C5257AF60BF3551AF78EB /* HealthProduct.podspec */,
-				6D3E414A0B62D1FD0377088CD651393E /* LICENSE */,
-				688086EA215B403851C1D1535A0B1E0B /* README.md */,
+				9B2EB6E2C799DCAC8277174D39F8A6FE /* PageCtrll.swift */,
+				F84B68640ED38FDE320EFC7BE1A5C8E1 /* ReplaceMe.swift */,
+				F9B0DB0CBD43F7627EC1CC6FD79AE70A /* ViewPageController.swift */,
+				220E950B1CAE272201CEB5761558D68C /* Pod */,
+				E41E8A281F18F3F6EDEA7AEEBCCAE2AB /* Support Files */,
 			);
-			name = Pod;
+			name = HealthProduct;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BE4E4F7972FD479BCFBF5EC602565F96 /* Targets Support Files */ = {
@@ -192,26 +195,11 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C25609D6568568B55102C1458962BA58 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F5F539B187075EC3CE078848C70B9AAF /* HealthProduct.modulemap */,
-				85CD778E7F5B0D97A78525D2FC18D967 /* HealthProduct-dummy.m */,
-				BC7C5DF3AF4242C35F9EAC341832BF28 /* HealthProduct-Info.plist */,
-				24869B5505CF321B861FDC5D7B99F2D8 /* HealthProduct-prefix.pch */,
-				F1E874A165E9D7F6FCAAF0A68AEA30EA /* HealthProduct-umbrella.h */,
-				83436F5A2577A69099363CE6E2E0DE30 /* HealthProduct.debug.xcconfig */,
-				991E650694E495F9FD9199E847D6C43D /* HealthProduct.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HealthProduct";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0C0C0D401CC133C3F159396A336AF228 /* Development Pods */,
+				24C727B28525CB75DED72BD49C4C3950 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				24C40D1B52513F05E32B4008B6936AE0 /* Products */,
 				BE4E4F7972FD479BCFBF5EC602565F96 /* Targets Support Files */,
@@ -226,6 +214,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E41E8A281F18F3F6EDEA7AEEBCCAE2AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B094C86C690886E2348711240D740857 /* HealthProduct.modulemap */,
+				B7AE5C488D616D1668F6565F6C1A5A8B /* HealthProduct-dummy.m */,
+				36DCAAC4735FF691B87A2B9EE42C9569 /* HealthProduct-Info.plist */,
+				4E61C68A071FC65A2E3C806212B95167 /* HealthProduct-prefix.pch */,
+				1AE1E5C40A6F8098BC683ED1EC3CA360 /* HealthProduct-umbrella.h */,
+				3129BD2D359445F25A23D2FF5BF664D8 /* HealthProduct.debug.xcconfig */,
+				F56366F78F55F31271B03E23E67AA452 /* HealthProduct.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HealthProduct";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -237,11 +240,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36443ACBB06A8F738018E95DBCD4210D /* Headers */ = {
+		6085B97752CB340C2AD5294EB6B5B7E2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D87D10567987B1513FBAEF1B75F87BA4 /* HealthProduct-umbrella.h in Headers */,
+				9805E05413009EE2A8E58C5F97FA94FB /* HealthProduct-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,12 +261,12 @@
 /* Begin PBXNativeTarget section */
 		1814E425D431C7867F9782A9B35BC93F /* HealthProduct */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E185FED9D490DA2BCDFD91FF60CEB8F /* Build configuration list for PBXNativeTarget "HealthProduct" */;
+			buildConfigurationList = 6E6739C488A0FA0077B3A78C611A6998 /* Build configuration list for PBXNativeTarget "HealthProduct" */;
 			buildPhases = (
-				36443ACBB06A8F738018E95DBCD4210D /* Headers */,
-				D5DBABC8A6BAA1EEF0A7DD09EED00B2A /* Sources */,
-				A08FB85E6FB2111DB684DEF91A7F215A /* Frameworks */,
-				AA4724DC661D869D6283FDD66896F8B3 /* Resources */,
+				6085B97752CB340C2AD5294EB6B5B7E2 /* Headers */,
+				4354CB361581B11F3631BA14A3774319 /* Sources */,
+				0DEDB6E299AE3AD19AFCC6EF9E2E9753 /* Frameworks */,
+				28F88CC19BFDD6943E05549C2B21A103 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -286,7 +289,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8A7DE9D6EACE7401F355B1E69601BD5D /* PBXTargetDependency */,
+				0D4DD34284433929F9D73F06DEBE38D0 /* PBXTargetDependency */,
 			);
 			name = "Pods-HealthProduct_Example";
 			productName = "Pods-HealthProduct_Example";
@@ -305,7 +308,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				FF082A987D8A3D2260A494CC3AC9E188 /* PBXTargetDependency */,
+				CB239183DD1111643C287303F523D46D /* PBXTargetDependency */,
 			);
 			name = "Pods-HealthProduct_Tests";
 			productName = "Pods-HealthProduct_Tests";
@@ -349,7 +352,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA4724DC661D869D6283FDD66896F8B3 /* Resources */ = {
+		28F88CC19BFDD6943E05549C2B21A103 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,6 +369,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4354CB361581B11F3631BA14A3774319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92DBA680A9239C6930F0E6F3CFD8155 /* HealthProduct-dummy.m in Sources */,
+				A3FA805DFB51AF3E4CF1BA4B66EBBCCF /* PageCtrll.swift in Sources */,
+				45419E881B9157CE73CBC1546590419B /* ReplaceMe.swift in Sources */,
+				46A66BBEFA0F7FAE08F48C8D645F4958 /* ViewPageController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		876453061ED4C4F8310ECD9572202808 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -382,30 +396,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5DBABC8A6BAA1EEF0A7DD09EED00B2A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				81E4A1B547B1FBBF2686CD12AB038362 /* HealthProduct-dummy.m in Sources */,
-				2418846E37B8B6B18C5BF86A679E3E40 /* LeftImageTextField.swift in Sources */,
-				7E873C5655EADFE71FF32AD8624B5063 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8A7DE9D6EACE7401F355B1E69601BD5D /* PBXTargetDependency */ = {
+		0D4DD34284433929F9D73F06DEBE38D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HealthProduct;
 			target = 1814E425D431C7867F9782A9B35BC93F /* HealthProduct */;
-			targetProxy = 3661323DA96D84D013F8FCD1C1BAED70 /* PBXContainerItemProxy */;
+			targetProxy = 8A912A0C840537EE7AD0DDACBB23B608 /* PBXContainerItemProxy */;
 		};
-		FF082A987D8A3D2260A494CC3AC9E188 /* PBXTargetDependency */ = {
+		CB239183DD1111643C287303F523D46D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-HealthProduct_Example";
 			target = 6EC89F1C6888C27383D54C7F331C0324 /* Pods-HealthProduct_Example */;
-			targetProxy = C5AF6889837C3F28CF29698A967F9B59 /* PBXContainerItemProxy */;
+			targetProxy = F74606537A8606A7A086AA1DE5E57261 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -573,9 +577,9 @@
 			};
 			name = Debug;
 		};
-		AA1BECD231B62822F003041391D7621A /* Release */ = {
+		A30E5F60822D9C88D4A991BAB07A5055 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 991E650694E495F9FD9199E847D6C43D /* HealthProduct.release.xcconfig */;
+			baseConfigurationReference = F56366F78F55F31271B03E23E67AA452 /* HealthProduct.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -666,9 +670,9 @@
 			};
 			name = Release;
 		};
-		E340BD0142248C792ABDA240E483C67B /* Debug */ = {
+		CAB27B1F870A34C6CF3277504E1914DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83436F5A2577A69099363CE6E2E0DE30 /* HealthProduct.debug.xcconfig */;
+			baseConfigurationReference = 3129BD2D359445F25A23D2FF5BF664D8 /* HealthProduct.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -750,20 +754,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6E6739C488A0FA0077B3A78C611A6998 /* Build configuration list for PBXNativeTarget "HealthProduct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB27B1F870A34C6CF3277504E1914DC /* Debug */,
+				A30E5F60822D9C88D4A991BAB07A5055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7BC2ACBA775980A9B61800000ECB8A66 /* Build configuration list for PBXNativeTarget "Pods-HealthProduct_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B8BF5ACCF8D3AA510E4C430319D5917 /* Debug */,
 				4FC83C0B41A49181DBEB897471369E6F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9E185FED9D490DA2BCDFD91FF60CEB8F /* Build configuration list for PBXNativeTarget "HealthProduct" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E340BD0142248C792ABDA240E483C67B /* Debug */,
-				AA1BECD231B62822F003041391D7621A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

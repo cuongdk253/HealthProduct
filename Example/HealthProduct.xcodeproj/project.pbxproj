@@ -15,7 +15,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		A231A10225932C1100460974 /* LeftImageTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A231A10125932C1100460974 /* LeftImageTextField.swift */; };
+		A231A26D259346BE00460974 /* ViewPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A231A26C259346BE00460974 /* ViewPageController.swift */; };
+		A231A28B25935B9C00460974 /* PageCtrll.swift in Sources */ = {isa = PBXBuildFile; fileRef = A231A28A25935B9C00460974 /* PageCtrll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +45,8 @@
 		6AD9A148C57D591876B1D07E /* Pods-HealthProduct_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthProduct_Example.debug.xcconfig"; path = "Target Support Files/Pods-HealthProduct_Example/Pods-HealthProduct_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6E3559BB451F3DAABDED2163 /* Pods-HealthProduct_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthProduct_Example.release.xcconfig"; path = "Target Support Files/Pods-HealthProduct_Example/Pods-HealthProduct_Example.release.xcconfig"; sourceTree = "<group>"; };
 		78EF2C01F7CDC242618EAC02 /* HealthProduct.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HealthProduct.podspec; path = ../HealthProduct.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A231A10125932C1100460974 /* LeftImageTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeftImageTextField.swift; path = ../HealthProduct/Classes/LeftImageTextField.swift; sourceTree = "<group>"; };
+		A231A26C259346BE00460974 /* ViewPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewPageController.swift; path = ../HealthProduct/Classes/ViewPageController.swift; sourceTree = "<group>"; };
+		A231A28A25935B9C00460974 /* PageCtrll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PageCtrll.swift; path = ../HealthProduct/Classes/PageCtrll.swift; sourceTree = "<group>"; };
 		B7DA4AF6F76A396B34B2EC42 /* Pods-HealthProduct_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthProduct_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HealthProduct_Tests/Pods-HealthProduct_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0B4D31A411AB5F78006FBEF /* Pods_HealthProduct_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthProduct_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E820280358D6B5AB396797 /* Pods_HealthProduct_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthProduct_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,7 +87,8 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				A231A10125932C1100460974 /* LeftImageTextField.swift */,
+				A231A28A25935B9C00460974 /* PageCtrll.swift */,
+				A231A26C259346BE00460974 /* ViewPageController.swift */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for HealthProduct */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -336,9 +339,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A231A28B25935B9C00460974 /* PageCtrll.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				A231A10225932C1100460974 /* LeftImageTextField.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				A231A26D259346BE00460974 /* ViewPageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
