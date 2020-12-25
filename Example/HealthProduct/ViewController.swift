@@ -37,7 +37,7 @@ class ViewController: UIViewController {
 //        self.view.addSubview(self.customerTextField)
 //        view.backgroundColor = .orange
 //
-        button.setTitle("Test", for: .normal)
+        button.setTitle("Main", for: .normal)
         button.setTitleColor(.systemBlue, for: .normal)
         button.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
 
@@ -49,7 +49,7 @@ class ViewController: UIViewController {
     
     @objc
         func buttonAction() {
-            let ac = ViewPageCtrl()
+            let ac = PageCtrlll()
 //            self.present(ac, animated: true, completion: nil)
             
             self.navigationController?.pushViewController(ac, animated: true)

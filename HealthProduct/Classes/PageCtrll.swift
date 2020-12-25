@@ -37,7 +37,8 @@ public class PageCtrlll: UIViewController {
         button.setTitle("Test", for: .normal)
         button.setTitleColor(.systemBlue, for: .normal)
         button.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
-
+        button.backgroundColor = .white
+        self.view.backgroundColor = .orange
         self.view.addSubview(button)
         
         
